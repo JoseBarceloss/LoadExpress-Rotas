@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #064454;
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    font-size: 28px;
+    color: white;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 40px;
+}
+
+.btn-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#voltarBtn {
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 20px 10px;
+    padding: 15px 45px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.5s ease;
+}
+
+#voltarBtn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
